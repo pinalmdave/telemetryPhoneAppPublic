@@ -1,0 +1,30 @@
+<ion-view title="Verify">
+	<ion-content scroll="false">
+		<form name="verify_form" ng-submit="verify_form.$valid && api.verify()">
+			<ion-list>
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Email
+					</span>
+					<input type="email" placeholder="john@domain.com" ng-model="verify.email" required>
+				</ion-item>
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Code
+					</span>
+					<input type="number" placeholder="123456" ng-model="verify.code" required>
+				</ion-item>
+            </ion-list>
+
+            <div class="padding">
+				<button type="submit" class="button button-block button-positive">
+					Verify
+				</button>
+
+				<button type="button" class="button button-block button-assertive" ng-click="$state.go('app.register')">
+					Back
+				</button>
+			</div>
+		</form>
+	</ion-content>
+</ion-view>

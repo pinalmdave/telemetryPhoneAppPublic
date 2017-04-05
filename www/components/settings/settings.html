@@ -1,0 +1,30 @@
+<ion-view view-title="Settings">
+	<ion-content>
+		<ion-list>
+			<ion-item class="item item-divider">
+				Graphs
+			</ion-item>
+			<ion-item class="item item-input">
+				<span class="input-label">
+					Max points
+				</span>
+				{{ settings.graphs.maxPoints }}
+			</ion-item>
+			<ion-item class="item range">
+				<i>
+					2
+				</i>
+				<input type="range" name="volume" min="2" max="200" ng-model="settings.graphs.maxPoints" required ng-change="update()">
+				<i>
+					200
+				</i>
+			</ion-item>
+			<ion-item class="item item-divider">
+				Notifications
+			</ion-item>
+			<ion-toggle ng-model="settings.notifications.popups" toggle-class="toggle-calm" ng-change="update()">
+				Popup Notifications
+			</ion-toggle>
+		</ion-list>
+	</ion-content>
+</ion-view>

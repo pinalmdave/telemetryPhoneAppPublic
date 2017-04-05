@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title></title>
+
+        <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" href="assets/lib/ionic/css/ionic.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--  -->
+        <script src="assets/lib/moment/moment.js"></script>
+        <script src="assets/lib/ionic/js/ionic.bundle.js"></script>
+        <script src="assets/lib/ionic-platform-web-client/dist/ionic.io.bundle.js"></script>
+        <!-- <script src="cordova.js"></script> -->
+        <script src="assets/lib/ng-cordova.min.js"></script>
+        <script src="assets/lib/chart/chart.min.js"></script>
+        <script src="assets/lib/chart/angular-chart.min.js"></script>
+        <!-- classes -->
+        <script src="assets/classes/time.js"></script>
+        <script src="assets/clipboard/clipboard.min.js"></script>
+        <!-- config -->
+        <script src="app.js"></script>
+        <script src="config.js"></script>
+        <script src="app.run.js"></script>
+        <script src="app.directives.js"></script>
+        <!-- services -->
+        <script src="services/pin.js"></script>
+        <script src="services/graph.js"></script>
+        <script src="services/services.js"></script>
+        <script src="services/settings.js"></script>
+        <script src="services/formTools.js"></script>
+        <script src="services/localStorage.js"></script>
+        <script src="services/pushFactory.js"></script>
+        <!-- controllers -->
+        <script src="components/home/controller.js"></script>
+        <script src="components/alerts/controller.js"></script>
+        <script src="components/verify/controller.js"></script>
+        <script src="components/control/controller.js"></script>
+        <script src="components/profile/controller.js"></script>
+        <script src="components/statuses/controller.js"></script>
+        <script src="components/register/controller.js"></script>
+        <script src="components/settings/controller.js"></script>
+        <script src="components/authenticate/controller.js"></script>
+    </head>
+
+    <body ng-app="telemetry">
+        <ion-nav-view></ion-nav-view>
+    </body>
+</html>

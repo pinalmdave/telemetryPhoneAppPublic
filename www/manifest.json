@@ -1,0 +1,11 @@
+{
+	"name": 		"IOT DashBoard",
+	"display": 		"standalone",
+	"start_url": 	"index.html",
+	"short_name": 	"bitDash",
+	"icons": [{
+		"src": 		"icon.png",
+		"type": 	"image/png",
+		"sizes": 	"512x512"
+	}]
+}

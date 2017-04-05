@@ -1,0 +1,633 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cl",
+				"clientIdAuth"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"bll",
+				"bllAuth"
+			],
+			[
+				"respo",
+				"response"
+			],
+			[
+				"borr",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mo",
+				"module"
+			],
+			[
+				"h",
+				"h:a\theight:auto"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"in",
+				"invitations"
+			],
+			[
+				"form",
+				"formTools"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"sc",
+				"scopes"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"ov",
+				"ovy\toverflow-y"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"app",
+				"appName"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"spin",
+				"spinner"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"card",
+				"card-header"
+			],
+			[
+				"o",
+				"ov\toverflow"
+			],
+			[
+				"con",
+				"control"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"PROFIL",
+				"profile"
+			],
+			[
+				"c",
+				"container-fluid"
+			],
+			[
+				"b",
+				"bg\tbackground"
+			],
+			[
+				"btn-",
+				"btn-info"
+			],
+			[
+				"col",
+				"col-sm-10"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"te",
+				"text-center"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/components/landing/controller.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/config.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/services/services.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/components/menu.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/components/landing/landing.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/www/components/authenticate/controller.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/package.json",
+		"/home/clayton/Documents/telemetry/telemetry_phone/app/config.xml",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/services/services.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/services/formTools.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/config.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/services/pushFactory.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/components/authenticate/controller.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/app.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/index.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/app.run.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/manifest.json",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/components/landing/controller.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/js/app.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/templates/landing/landing.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/templates/landing/controller.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/templates/authenticate/authenticate.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/js/controllers.js",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/templates/menu.html",
+		"/home/clayton/Documents/telemetry/telemetry_phone/test/www/templates/authenticate/controller.js",
+		"/home/clayton/Documents/bitid/bll/bll.js",
+		"/home/clayton/Documents/bitid/apps/services/formTools.js",
+		"/home/clayton/Documents/bitid/dal/dalMongo.js",
+		"/home/clayton/Documents/bitid/api/auth.js",
+		"/home/clayton/Documents/bitid/bitid.js",
+		"/home/clayton/Documents/bitid/apps/components/authenticate/controller.js",
+		"/home/clayton/Documents/bitid/lib/apiResponder.js",
+		"/home/clayton/Documents/bitid/apps/components/shared/message/message.html",
+		"/home/clayton/Documents/bitid/apps/app.js",
+		"/home/clayton/Documents/bitid/apps/index.html",
+		"/home/clayton/Documents/bitid/apps/assets/scss/base/config.scss",
+		"/home/clayton/Documents/bitid/apps/app.run.js",
+		"/home/clayton/Documents/bitid/apps/components/organisation/controller.js",
+		"/home/clayton/Documents/bitid/apps/services/message.js",
+		"/home/clayton/Documents/bitid/apps/components/organisation/organisation.html",
+		"/home/clayton/Documents/bitid/apps/services/watch.js",
+		"/home/clayton/Documents/bitid/apps/components/myApps/myApps.html",
+		"/home/clayton/Documents/bitid/apps/services/services.js",
+		"/home/clayton/Documents/bitid/apps/components/menu/menu.html",
+		"/home/clayton/Documents/bitid/db/dbMongo.js",
+		"/home/clayton/Documents/bitid/script/settings.js",
+		"/home/clayton/Documents/bitid/apps/components/verify/controller.js",
+		"/home/clayton/Documents/bitid/apps/components/register/register.html",
+		"/home/clayton/Documents/bitid/apps/components/register/controller.js",
+		"/home/clayton/Documents/bitid/lib/tools.js",
+		"/home/clayton/Documents/bitid/apps/components/myApps/controller.js",
+		"/home/clayton/Documents/bitid/lib/dates.js",
+		"/home/clayton/Documents/bitid/lib/errorResponses.js",
+		"/home/clayton/Documents/bitid/apps/components/profile/profile.html",
+		"/home/clayton/Documents/bitid/db/dbScripts/initDB.js",
+		"/home/clayton/Documents/bitid/apps/assets/scss/build/invitation.scss",
+		"/home/clayton/Documents/bitid/apps/components/invitations/invitations.html",
+		"/home/clayton/Documents/bitid/apps/assets/scss/application.scss",
+		"/home/clayton/Documents/bitid/apps/components/invitations/controller.js",
+		"/home/clayton/Documents/bitid/apps/components/clients/controller.js",
+		"/home/clayton/Documents/bitid/apps/app.module.js",
+		"/home/clayton/Documents/bitid/api/invitation.js",
+		"/home/clayton/Documents/bitid/apps/components/clients/clients.html",
+		"/home/clayton/Documents/bitid/apps/components/clients/views/edit.html",
+		"/home/clayton/Documents/bitid/apps/assets/scss/build/clients.scss",
+		"/home/clayton/Documents/bitid/apps/components/shared/share/share.html",
+		"/home/clayton/Documents/bitid/apps/services/usersFactory.js",
+		"/home/clayton/Documents/bitid/api/clients.js",
+		"/home/clayton/Documents/bitid/apps/components/clients/views/add.html",
+		"/home/clayton/Documents/bitid/apps/components/shared/delete/delete.html",
+		"/home/clayton/Documents/bitid/apps/components/profile/views/edit.html",
+		"/home/clayton/Documents/bitid/apps/components/allowAccess/allowAccess.html",
+		"/home/clayton/Documents/bitid/apps/components/verify/verify.html",
+		"/home/clayton/Documents/bitid/logs/bitid.log.5",
+		"/home/clayton/Documents/bitid/apps/components/clients/views/subscribers.html",
+		"/home/clayton/Documents/bitid/apps/app.directives.js",
+		"/home/clayton/Documents/bitid/apps/components/spinner.html",
+		"/home/clayton/Documents/bitid/apps/components/test.html",
+		"/home/clayton/Documents/bitid/apps/components/profile/controller.js",
+		"/home/clayton/Documents/bitid/apps/assets/scss/build/profile.scss",
+		"/home/clayton/Documents/bitid/config.js",
+		"/home/clayton/Documents/bitid/apps/assets/scss/build/register.scss",
+		"/home/clayton/Documents/bitid/README.md",
+		"/home/clayton/Documents/bitid/apps/components/shared/menu/menu.html",
+		"/home/clayton/Documents/bitid/apps/assets/json/languages.json",
+		"/home/clayton/Documents/bitid/apps/assets/scss/modules/modals.scss",
+		"/home/clayton/Documents/bitid/apps/assets/scss/modules/bar.scss",
+		"/home/clayton/Documents/bitid/apps/assets/scss/modules/thumbnail.scss",
+		"/home/clayton/Documents/bitid/apps/assets/scss/modules/card.scss",
+		"/home/clayton/Documents/bitid/apps/assets/scss/build/myapps.scss",
+		"/home/clayton/Documents/bitid/apps/components/shared/add/addView.html",
+		"/home/clayton/Documents/bitid/apps/assets/scss/modules/thumbnial.scss",
+		"/home/clayton/Documents/bitid/apps/components/allowAccess/controller.js",
+		"/home/clayton/Documents/bitid/lib/logger.js",
+		"/home/clayton/Documents/bitid/apps/components/authenticate/authenticate.html",
+		"/home/clayton/Documents/bitid/apps/components/allowAccess/allowAccessController.js",
+		"/home/clayton/Documents/bitid/apps/assets/js/directives.js",
+		"/home/clayton/Documents/bitid/apps/components/clients/clientsController.js",
+		"/home/clayton/Documents/bitid/apps/components/myApps/myAppsController.js",
+		"/home/clayton/Documents/bitid/apps/components/profile/profileController.js",
+		"/home/clayton/Documents/bitid/apps/services/localStorage.js",
+		"/home/clayton/Documents/bitid/apps/components/register/registerController.js",
+		"/home/clayton/Documents/bitid/apps/components/shared/menu/appController.js",
+		"/home/clayton/Documents/bitid/apps/components/verifyUser/verifyUserController.js",
+		"/home/clayton/Documents/bitid/config_template.js",
+		"/home/clayton/Documents/alerting/alerting_web/config.js",
+		"/home/clayton/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/clayton/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/clayton/Documents/untitled.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/home/clayton/Documents/bitid",
+			"/home/clayton/Documents/bitid/apps",
+			"/home/clayton/Documents/bitid",
+			"/home/clayton/Documents/bitid/apps"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n        \t\t",
+			"authenticate.html",
+			"debugger",
+			"debu",
+			"\n\t\t\t",
+			"$scope.error = ",
+			"$scope.organisation",
+			"$scope.organisations",
+			"$window",
+			"/genus",
+			"-organisation",
+			"tblOrganization",
+			"organ",
+			"genus/",
+			", ",
+			"settings.genusServer.host",
+			"invitations",
+			"deb",
+			"test",
+			"Organisation",
+			"new tools.module()",
+			"processgetscope",
+			"mongoFind",
+			"mongoInsert",
+			"queryString",
+			"mom",
+			"momen",
+			"){",
+			"moment",
+			"myEnc",
+			"moment",
+			"errorResponses",
+			"dalUsers.dbCall",
+			"testSuccessResponse",
+			"crypto",
+			"queryString",
+			"nodemailer",
+			"gcm",
+			"tools.",
+			"validateEmail",
+			"tools.validateEmail",
+			"tools.",
+			"gcm",
+			"nodemailer",
+			"queryString",
+			"request",
+			"crypto",
+			"dalModule",
+			"Q.",
+			"Q",
+			"q",
+			"Q",
+			"nodemailer",
+			"crypto",
+			"function (",
+			"dropdown ",
+			"dropdown {",
+			"dropdown",
+			"register",
+			"organisation",
+			"deleteOrganisation",
+			"updateOrganisation",
+			"addOrganisation",
+			"tblOrganization",
+			"Organisation",
+			"dalOrganisation",
+			"listOrganisation",
+			"server",
+			"Organisation",
+			"organisation",
+			"Organisation",
+			"organisation",
+			"Organisation",
+			"organisation",
+			"Organisation",
+			"organisation",
+			"Organisation",
+			"organisation",
+			"auth",
+			"roadrunner",
+			"roadRunner",
+			"roadrunner",
+			"$scope.users",
+			"req.",
+			"function (",
+			"req,res",
+			"testSuccessResponse",
+			"$scope.token",
+			"searchScopes",
+			"add_client_form",
+			"clientControl",
+			"processNotifyClientsUpdate",
+			"invalidInput",
+			"shareForm",
+			"function (",
+			"src",
+			"img",
+			"subscription",
+			"clientControl",
+			"editClientForm",
+			"clientControl",
+			"notify",
+			"passwordForm",
+			"assets",
+			"register_form",
+			"profileForm",
+			"editPD",
+			"style=\"padding-left: 10px;padding-right: 10px;\"",
+			"error writing token1",
+			"we get here1",
+			"192.167.1.14",
+			"1.14",
+			"input-big",
+			"invalidInput",
+			"ng-model=\"",
+			"verifyUser",
+			"div class=\"col-lg-6\"",
+			"h2",
+			"registerForm",
+			"shareView",
+			"deleteView",
+			"p>",
+			"p",
+			" class=\"profile-input row\"",
+			" class=\"col-xs-5 col-sm-4 col-md-4 col-lg-4 profile-input-label\"",
+			"class=\"col-xs-7 col-sm-8 col-md-8 col-lg-8 profile-input-info",
+			"getbootstrap.com",
+			"window"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"invalid",
+			"verify",
+			"'auth'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "telemetry_phone.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "ale",
+		"selected_items":
+		[
+			[
+				"ale",
+				"~/Projects/alerting_phone.sublime-project"
+			],
+			[
+				"",
+				"~/Projects/telemetry_phone.sublime-workspace"
+			],
+			[
+				"tel",
+				"~/Projects/telemetry_web.sublime-project"
+			],
+			[
+				"prop",
+				"~/Projects/property_web.sublime-project"
+			],
+			[
+				"gen",
+				"~/Projects/genus_web.sublime-project"
+			],
+			[
+				"genu",
+				"~/Projects/genus_web.sublime-project"
+			],
+			[
+				"genus",
+				"~/Projects/genus_web.sublime-project"
+			],
+			[
+				"te",
+				"~/Projects/telemetry_web.sublime-project"
+			],
+			[
+				"aler",
+				"~/Projects/alerting_web.sublime-project"
+			],
+			[
+				"tele",
+				"~/Projects/telemetry_web.sublime-project"
+			],
+			[
+				"re",
+				"~/Projects/reporting_web.sublime-project"
+			],
+			[
+				"al",
+				"~/Projects/alerting_web.sublime-project"
+			],
+			[
+				"tle",
+				"~/Projects/telemetry_web.sublime-project"
+			],
+			[
+				"bc",
+				"~/Projects/bcc_contractors_website.sublime-workspace"
+			],
+			[
+				"t",
+				"~/Projects/telemetry_web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

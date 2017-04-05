@@ -1,0 +1,69 @@
+<ion-view view-title="Home">
+	<ion-content scroll="true" delegate-handle="modalContent">
+		<ion-refresher pulling-text="Getting Stats" on-refresh="control.load()" spinner="none">
+		</ion-refresher>
+
+		<div class="block-group">
+			<div class="block-c block-50 block-cherry" ng-click="$state.go('app.alerts');">
+				<i class="ion-ios-bell-outline"></i>
+			</div>
+			<div class="block-c block-50 block-bberry" ng-click="$state.go('app.statuses');">
+				<i class="ion-stats-bars"></i>
+			</div>
+		</div>
+
+		<div class="bar bar-positive" style="position: relative;">
+			<button class="button button-assertive" ng-click="delete = !delete">
+				Remove
+			</button>
+			<label class="title">
+				Pins {{ pins.length }}
+			</label>
+		</div>
+
+		<div style="position: relative;">
+			<ion-list show-delete="delete" can-swipe="true">
+				<div ng-repeat="mod in pins | orderBy: $index">
+					<div class="item item-divider" on-hold="control.hold()">
+						<label>
+							<h2>
+								{{ mod.description }}
+							</h2>
+							<small>
+								Module {{ mod.module }}
+							</small>
+							<p style="float: right;">
+								{{ mod.lastComms }}
+							</p>
+						</label>
+					</div>
+
+		  			<ion-item class="item item-status" ng-repeat="stat in mod.statuses | orderBy: 'position'">
+			  			<div ng-if="stat.type == 'status'">
+			  				{{ stat.description }}
+						    <span>
+								{{ stat.value }} {{ stat.unit }}
+						    </span>
+					    </div>
+
+					    <div ng-if="stat.type == 'graph'" style="padding: 0px;margin-right: -30px;margin-left: -10px;">
+					    	<div style="width: 100%;text-align: center;">
+					    		{{ stat.description }}
+					    	</div>
+						    <canvas id="line"
+						    		class="chart chart-line" 
+						    		chart-data="[stat.data]"
+									chart-labels="stat.labels" 
+									chart-options="options"
+									chart-colors="colors">
+							</canvas>
+						</div>
+
+					    <ion-delete-button class="ion-minus-circled" ng-click="control.pins.delete(mod, stat.position)">
+					    </ion-delete-button>
+					</ion-item>
+				</div>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

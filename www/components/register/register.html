@@ -1,0 +1,83 @@
+<ion-view title="Register">
+	<ion-content>
+		<form name="register_form" ng-submit="register_form.$valid && api.register()">
+			<ion-list>
+<!-- 				<ion-item class="item item-image">
+					<label class="image-control-container">
+                        <img class="profile-image" ng-src="{{ register.profilePic || './assets/img/avatar.png' }}">
+                        <input type="file" accept="image/jpeg, image/png" style="display: none;" fileread="register.profilePic">
+                    </label>
+				</ion-item>
+				<ion-item class="item item-input item-select">
+					<span class="input-label">
+						Time Zone
+					</span>
+					<select ng-model="register.timeZone" required>
+		            	<option ng-repeat="zone in timeZones" value="{{ zone.value }}" ng-selected="register.timeZone === zone.value">
+		            		{{ zone.description }}
+		            	</option>
+		            </select>
+				</ion-item> -->
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Email
+					</span>
+					<input type="email" placeholder="john@domain.com" ng-model="register.email" required>
+				</ion-item>
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Name
+					</span>
+					<input type="text" placeholder="John" ng-model="register.userName" required>
+				</ion-item>
+<!-- 
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Last Name
+					</span>
+					<input type="text" placeholder="Suhr" ng-model="register.userSurname" required>
+				</ion-item>
+
+				<ion-item class="item item-input item-stacked-label">
+					<span class="input-label">
+						Mobile
+					</span>
+					<input type="tel" placeholder="012 345 6789" ng-pattern="/^[0-9]{10,10}$/" ng-model="register.mobileNumber" required>
+				</ion-item> -->
+				
+				<ion-item class="item item-input item-stacked-label">
+                    <span class="input-label">
+                    	Password
+                    </span>
+                    <input type="password" ng-model="register.password" required>
+                </ion-item>
+                <ion-item class="item item-input item-stacked-label">
+                    <span class="input-label">
+                    	Confirm
+                    </span>
+                    <input type="password" ng-model="register.confirm" required>
+               	</ion-item>
+               	<ion-item ng-show="register.password != register.confirm">
+                    <span style="margin-left: 10px;color:red;">
+                    	Passwords Don't Match!
+                    </span>
+                </ion-item>
+			</ion-list>
+			<div class="padding">
+				<button type="submit" class="button button-block button-positive" ng-disabled="register.password != register.confirm || !register.password && !register_form.$valid">
+					Register
+				</button>
+			</div>
+			<div class="padding">
+				<button type="button" class="button button-block button-positive button-outline" ng-click="$state.go('app.verify')">
+					Verify Now
+				</button>
+			</div>
+			<div class="padding">
+				<button type="button" class="button button-block button-assertive" ng-click="$state.go('app.authenticate')">
+					Back
+				</button>
+			</div>
+		</form>
+	</ion-content>
+</ion-view>

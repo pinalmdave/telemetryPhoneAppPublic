@@ -1,0 +1,46 @@
+<ion-view view-title="Profle">
+	<ion-content>
+		<ion-list>
+            <ion-item class="item item-thumbnail-left">
+                <img ng-src="{{ user.profilePic || './assets/img/avatar.png'}}">
+                <h2>
+                    {{ user.userName || 'set name' }}
+                </h2>
+                <p>
+                    {{ user.email || email}}
+                </p>
+            </ion-item>
+
+             <ion-item class="item item-divider">
+			    <button class="button button-positive" ng-click="control.modals.edit()">
+			    	Edit
+			    </button>
+		     	<button class="button button-assertive" ng-click="control.modals.password()">
+			    	Change Password
+			    </button>
+			  </ion-item>
+
+            <ion-item class="item item-icon-left">
+				<i class="icon ion-android-call"></i>
+				{{ user.mobileNumber || 'set number'}}
+            </ion-item>
+            <ion-item class="item item-icon-left">
+				<i class="icon ion-mic-a"></i>
+				{{ user.language || 'set language'}}
+            </ion-item>
+
+            <ion-item class="item item-icon-left">
+				<i class="icon ion-pound"></i>
+				{{ user.userName || 'set userName'}}
+            </ion-item>
+            <ion-item class="item item-icon-left">
+				<i class="icon ion-person"></i>
+				{{ user.userSurname || 'set userSurname'}}
+            </ion-item>
+            <ion-item class="item item-icon-left">
+				<i class="icon ion-location"></i>
+				{{ user.timeZone || 'set timeZone'}}
+            </ion-item>
+        </ion-list>
+	</ion-content>
+</ion-view>

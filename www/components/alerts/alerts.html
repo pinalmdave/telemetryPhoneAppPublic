@@ -1,0 +1,26 @@
+<ion-view view-title="Alerts">
+	<ion-content>
+		<ion-refresher pulling-text="Refreshing Your Alerts" on-refresh="api.rtus()" spinner="none">
+		</ion-refresher>
+
+		<div class="card no-items" ng-if="alerts.length == 0">
+			<center>
+				<label>
+					You Have No Alerts!
+				</label>
+			</center>
+		</div>
+
+		<div class="card alerts-card" ng-repeat="alert in alerts | orderBy: '-serverDate'" onclick="new Clipboard(this)" data-clipboard-text="{{alert.rtuId}}">
+			<header ng-repeat="rtu in rtus" ng-if="rtu._id == alert.rtuId">
+				{{ rtu.description }}
+			</header>
+			<p>
+				{{ alert.message }}
+			</p>
+			<footer>
+				{{ alert.time }}
+			</footer>
+		</div>
+	</ion-content>
+</ion-view>

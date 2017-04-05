@@ -1,0 +1,22 @@
+<ion-modal-view>
+	<ion-header-bar>
+		<h1 class="title">
+			Pin to Home
+		</h1>
+		<button class="button button-assertive" ng-click="pinSelector.hide()">
+			close
+		</button>
+	</ion-header-bar>
+	<ion-content scroll="false">
+		<ion-list>
+			<ion-checkbox ng-model="selected.status" ng-click="control.pins.set('status')" ng-disabled="selected.status">
+				<i class=" ion-flag" style="float: right;font-size: 22px;"></i>
+				Status
+			</ion-checkbox>
+			<ion-checkbox ng-model="selected.graph" ng-click="control.pins.set('graph')" ng-disabled="selected.graph">
+				<i class=" ion-arrow-graph-up-right" style="float: right;font-size: 22px;"></i>
+				Graph
+			</ion-checkbox>
+		</ion-list>
+	</ion-content>
+</ion-modal-view>

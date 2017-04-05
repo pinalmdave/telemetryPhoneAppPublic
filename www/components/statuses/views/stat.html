@@ -1,0 +1,38 @@
+<ion-modal-view>
+	<ion-header-bar class="bar-balanced">
+		<h1 class="title">
+			{{ rtu.description }}
+			<i class="ion-stats-bars"></i>
+		</h1>
+		<button class="button button-assertive" ng-click="control.modals.close()">
+			close
+		</button>
+	</ion-header-bar>
+	<ion-content class="status_viewer">
+		<div class="info">
+			Slide left to pin
+		</div>
+		<ion-list can-swipe="true">
+			<div ng-repeat="mod in modules | orderBy: $index">
+				<div class="item item-divider">
+					<label>
+						Module {{ mod.module }}
+					</label>
+					<p>
+						{{ mod.lastComms }}
+					</p>
+				</div>
+
+	  			<ion-item class="item item-status" ng-repeat="stat in mod.statuses">
+	  				{{ stat.description }}
+				    <span>
+						{{ stat.value }} {{ stat.unit }}
+				    </span>
+				    <ion-option-button class="button-positive" ng-click="control.pins.open($event, mod.module, stat)">
+						<i class="ion-pin"></i>
+				    </ion-option-button>
+				</ion-item>
+			</div>
+		</ion-list>
+	</ion-content>
+</ion-modal-view>

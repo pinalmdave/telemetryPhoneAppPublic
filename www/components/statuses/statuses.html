@@ -1,0 +1,29 @@
+<ion-view view-title="Statuses">
+	<ion-content>
+		<ion-refresher pulling-text="Getting Stats" on-refresh="api.rtus()" spinner="none">
+		</ion-refresher>
+
+		<div class="list">
+			<div class="item item-divider item-input item-select"">
+				<i class="icon ion-search placeholder-icon"></i>
+				<input type="text" placeholder="Filter units" ng-model="search">
+				<select ng-model="orderBy">
+					<option value="-serverDate">
+						Status Desc
+					</option>
+					<option value="serverDate">
+						Status Asc
+					</option>
+				</select>
+			</div>
+
+
+			<a class="item" ng-repeat="rtu in rtus | filter: search | orderBy: orderBy" ng-click="control.modals.open(rtu._id)">
+				{{ rtu.description }}
+				<span style="float: right;font-size: 12px;">
+					{{ rtu.lastComms }}
+				</span>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>	
